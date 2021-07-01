@@ -1,0 +1,11 @@
+#!/bin/bash
+RED="\e[31m"
+ORANGE="\e[33m"
+BLUE="\e[94m"
+GREEN="\e[92m"
+STOP="\e[0m"
+printf "${ORANGE}"
+echo -e "\nJosh\n"
+printf "${GREEN}"
+echo -e "Falk\n"
+printf "${STOP}"
